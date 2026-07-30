@@ -21,6 +21,10 @@ Open `index.html` in any browser, or visit the GitHub Pages URL. Enter the amoun
 
 This is a planning calculator, not financial advice and not a loan offer. It assumes a fixed rate and the same payment every month, which real loans rarely hold exactly. Confirm any real loan's terms with the lender.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. Copyright (c) 2026 0xelitesystem.
