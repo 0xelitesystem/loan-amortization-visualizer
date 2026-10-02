@@ -13,13 +13,34 @@ It runs entirely in the browser. Nothing is uploaded, stored, or tracked.
 - A chart of the remaining balance over time, with the running interest paid alongside it
 - With an extra payment: the time and interest saved against paying the minimum
 
-## How to use
+## Use
 
 Open `index.html` in any browser, or visit the GitHub Pages URL. Enter the amount, rate, term, and optionally an extra monthly payment. Everything recalculates as you type. If the payment does not cover the monthly interest, the tool says so rather than drawing a balance that never falls.
+
+## Why this exists
+
+Seeing how a fixed-rate loan pays down, and what an extra monthly payment actually saves, should not mean typing your numbers into a site that logs them. This is one HTML file that runs in your browser, with no tracking and no server, under the MIT license.
 
 ## Not financial advice
 
 This is a planning calculator, not financial advice and not a loan offer. It assumes a fixed rate and the same payment every month, which real loans rarely hold exactly. Confirm any real loan's terms with the lender.
+
+## Privacy
+
+Everything runs in your browser. The amount, rate, term and extra payment you enter are never sent anywhere and are not saved. The page makes no network requests and writes nothing to `localStorage`. The fonts are embedded in the file, so nothing is fetched from a font service.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/loan-amortization-visualizer
+cd loan-amortization-visualizer
+```
+
+Open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS and JavaScript inline, and nothing to install.
 
 ## More
 
